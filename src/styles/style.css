@@ -1,0 +1,11 @@
+/** @format */
+
+.Border {
+  border: none;
+}
+.BigMargin {
+  margin-top: 100px;
+}
+.SmallMargin {
+  margin-top: 200px;
+}
