@@ -9,7 +9,7 @@ import Summary from './summary'
 import Utils from '../utils/utils'
 import SipChart from './charts/sipChart'
 
-export default class HomePage extends React.Component{
+export default class Calculator extends React.Component{
 
    state={
        monthAmount:5000,
@@ -17,11 +17,7 @@ export default class HomePage extends React.Component{
        noOfYears:5
    }
 
-  //  componentDidMount()
-  //  {
-  //      //alert("gjhsdas")
-  //     this.findTotal()
-  //  }
+  
    
    inc=(event)=>{
       //alert(event.target.name)
@@ -66,8 +62,7 @@ export default class HomePage extends React.Component{
        console.log(z)
        const m=parseInt((p*z*(i+1)))
        return m
-       //console(m)
-       //alert(m)
+       
    }
   
     render(){

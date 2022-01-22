@@ -9,7 +9,7 @@ const Summary = ({summary}) => {
     return (
         
             
-             <Grid xs={12} md={6} className="Border" style={{"marginTop":"20px"}}>
+             <Grid xs={12} md={6} className="Border" style={{"marginTop":"20px", "marginBottom":"90px"}}>
                       <Box>
                         <Typography gutterBottom >
                           <strong>Invested: </strong><NumberFormat value={summary.investment} thousandsGroupStyle="lakh" displayType={'text'} thousandSeparator={true} prefix={'₹'} />
